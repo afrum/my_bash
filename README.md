@@ -1,2 +1,4 @@
-# my_bash
-compilation of simple bash scripts I use
+# Financial
++ converting pdf files to text files using pdftotext and combine to one file
+
+# ffmpeg scripts 

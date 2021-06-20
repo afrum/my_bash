@@ -1,6 +1,7 @@
 #! /bin/bash
 # to trim multiple videos from a csv file called times.csv
 # the format in the csv file is video_name,start_time,end_time
+# link to my video about this script https://youtu.be/QdBcfw4dtkI
 
 
 i=0

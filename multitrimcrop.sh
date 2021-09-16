@@ -4,7 +4,7 @@
 #     video_name is the videos name, including address if not in current folder
 #     start_time is the start of the trim,example of formats seconds e.g 135.5 or minutes:seconds e.g 2:15.5
 #     end_time is the time at the input video that you want to stop your output video
-#     crop if you want to crop the video, format is x-axis:y-axis:width:height e.g. 100:150:600:650
+#     crop if you want to crop the video, format is width:height:x-axis:y-axis e.g. 600:650:100:150
 # link to my video about this script https://youtu.be/QdBcfw4dtkI
 
 

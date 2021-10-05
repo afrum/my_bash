@@ -1,0 +1,16 @@
+# to cut the first column from a csv 
+cut -d "," -f 1 file.csv > outputfie
+# to cut selected characters (in this e.g 8th to 13th character)
+cut -c 8-13 file.csv > outputfile
+
+# grep commands
+grep -vf <(cut -d "," -f 1 filename.csv) <(seq -f "some text %06g" 0 100) > missing_numbers_file
+seq -f "some text %06g" 0 100 | grep -vf <(cut -d "," -f 1 filename.csv) > missing_numbers_file
+
+# using two files tmpfile1 contains sequential numbers tmpfile2 my file of numbers I want to compare.
+join -v 1 tmpfile1 <(sort -u tmpfile2) > missing_numbers_file
+comm -23 tmpfile1 <(sort -u tmpfile2) > missing_numbers_file
+awk 'NR==FNR{a[$0]++;next} !a[$0]' tmpfile2 tmpfile1 > missing_numbers_file
+
+# to count how many lines and therefore how many missing numbers
+wc -l missing_number_file

@@ -1,4 +1,5 @@
-# to cut the first column from a csv - youtube video https://youtu.be/tVtWcZKGqZw
+# youtube video https://youtu.be/tVtWcZKGqZw
+# to cut the first column from a csv 
 cut -d "," -f 1 file.csv > outputfie
 # to cut selected characters (in this e.g 8th to 13th character)
 cut -c 8-13 file.csv > outputfile

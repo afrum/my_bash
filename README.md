@@ -1,7 +1,7 @@
 # Financial
 + [pdf to text](bankpdftocsv.sh) - converting pdf files to text files using pdftotext and combine to one file
 + [list the headers](1strow2col.sh) - creates a list in a text file of the headers (first row) of a csv file
-+ [find missing consecutive numbers](missing_numbers) - when the first column has rows numbered consecutively but some numbers are missing and you want to find which numbers are missing and how many missing numbers there are.
++ [find missing consecutive numbers](missing_numbers) - when the first column has rows numbered consecutively but some numbers are missing and you want to find which numbers are missing and how many missing numbers there are. [video link](https://youtu.be/tVtWcZKGqZw)
 
 # ffmpeg scripts 
 + [removes every other frame](multi_deflicker.sh) - removes every other frame from 10 videos named input0.MOV to input9.MOV

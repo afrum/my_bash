@@ -9,3 +9,4 @@
 + [create sound files from movies](getsound.sh) - creates sound files (.mp3) from all the movie files (.MOV) in the current directory
 + [create trimmed videos from csv file](multitrim.sh) - create video(s) from information defined in a csv with start and end times of original video to define output video. [video link](https://youtu.be/QdBcfw4dtkI)
 + [create trimmed and cropped videos from csv file](multitrimcrop.sh)- create video(s) from information defined in a csv with start and end times of original video and crop information to define output video. [video link](https://youtu.be/QdBcfw4dtkI)
++  [speed up or slow down video and audio](speedvid.sh)- quick script to speed up or slow down video and it's audio at the same time.

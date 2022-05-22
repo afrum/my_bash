@@ -10,7 +10,7 @@ inputvideo=input.mkv
 
 
 speedvideo=2
-speedaudio=1/$speedvideo
+speedaudio=1/\($speedvideo\)
 outputvideo=output.mkv
 
 ffmpeg -i $inputvideo -filter_complex "[0:v]setpts=$speedvideo*PTS[v],[0:a]atempo=$speedaudio[a]" -map "[v]" -map "[a]" $outputvideo

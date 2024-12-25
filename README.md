@@ -11,3 +11,6 @@
 + [create trimmed videos from csv file](multitrim.sh) - create video(s) from information defined in a csv with start and end times of original video to define output video. [video link](https://youtu.be/QdBcfw4dtkI)
 + [create trimmed and cropped videos from csv file](multitrimcrop.sh)- create video(s) from information defined in a csv with start and end times of original video and crop information to define output video. [video link](https://youtu.be/QdBcfw4dtkI)
 +  [speed up or slow down video and audio](speedvid.sh)- quick script to speed up or slow down video and it's audio at the same time.
+
+#Imagemagick script
++ [make snowflake from png image](snowflake.sh) - simple script that turns simple drawing into snowflake
